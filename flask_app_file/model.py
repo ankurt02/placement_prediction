@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn import preprocessing
 
-df = pd.read_csv('collegePlace.csv')
+df = pd.read_csv('dataset.csv')
 
 
 x = df.drop('PlacedOrNot',axis='columns')
